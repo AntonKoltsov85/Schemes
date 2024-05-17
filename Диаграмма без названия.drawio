@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-05-16T17:30:52.074Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="tgiqBjVGOGX6vm9xw8Q7" version="24.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-17T08:48:16.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="muDwjq8YK-fn-S9J-GKR" version="24.4.3" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1002" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Mn2cihiVgBMYF89Buh5e-12" value="Обогащение ФОТ" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="30" width="860" height="520" as="geometry" />
+        <mxCell id="AureokOPcRB-wlUimoDX-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="700" height="320" as="geometry" />
         </mxCell>
-        <mxCell id="Mn2cihiVgBMYF89Buh5e-13" value="Ручное&amp;nbsp;" style="swimlane;startSize=20;html=1;" vertex="1" parent="Mn2cihiVgBMYF89Buh5e-12">
-          <mxGeometry y="20" width="340" height="500" as="geometry" />
+        <mxCell id="AureokOPcRB-wlUimoDX-2" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AureokOPcRB-wlUimoDX-1">
+          <mxGeometry x="20" width="680" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Mn2cihiVgBMYF89Buh5e-14" value="Автоматическое" style="swimlane;startSize=20;html=1;" vertex="1" parent="Mn2cihiVgBMYF89Buh5e-12">
-          <mxGeometry x="340" y="20" width="520" height="500" as="geometry" />
+        <mxCell id="AureokOPcRB-wlUimoDX-3" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AureokOPcRB-wlUimoDX-1">
+          <mxGeometry x="20" y="120" width="680" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
