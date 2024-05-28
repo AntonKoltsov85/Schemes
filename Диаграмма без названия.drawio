@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T11:08:00.775Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="-VFqS2GqkpTk9ktefLex" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-28T12:10:20.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="dr3rVLZzHGc8STDfbphs" version="24.4.9" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2520" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2281" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,6 +105,18 @@
         </mxCell>
         <mxCell id="Vi-23OGS0FtceBu0X0W--1" value="Цель развития аналитики по ФОТ:&#x9; Детально объяснять причины изменения доли затрат на ФОТ от выручки&#xa;Для этого нужно уметь объяснять две составляющие отношения: &#x9;Выручку и затраты&#xa;Основная идея решения:&#x9;&quot;Обогатить тарификатор компонентами ,которые влияют на баланс сотрудника(ФОТ) .Основные влияющие факторы: &#xa;-Списания и оприходования ШК.&#xa;-Штрафы.&#xa;Также нужно научится связывать эти компоненты с блоками , где возникают соответствующие события. Сейчас этого нет.&#xa;С точки зрения выручки ,план в том чтобы распределять выручку пропорционально затратам в разрезе блока и операции.&quot;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="10" width="560" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi-23OGS0FtceBu0X0W--72" value="Выручка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="210" width="310" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi-23OGS0FtceBu0X0W--74" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi-23OGS0FtceBu0X0W--75" value="Затраты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="380" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Vi-23OGS0FtceBu0X0W--76" value="Выручка&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="180" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
