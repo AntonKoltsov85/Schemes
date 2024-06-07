@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T12:42:56.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="CuFj6jt1Z4L6m3sSrOBu" version="24.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T12:44:31.767Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="jNTZaJJ1m0rjzxSqNeB1" version="24.5.1" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1179" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -96,11 +96,11 @@
             <mxPoint x="540" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5e7JrkWrHbsxP8Q_pqoO-39" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="60" width="120" height="60" as="geometry" />
+        <mxCell id="5e7JrkWrHbsxP8Q_pqoO-39" value="Взятть все списани яиз&amp;nbsp;&lt;table style=&quot;border-collapse:&lt;br/&gt; collapse;width:379pt&quot; width=&quot;505&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; border=&quot;0&quot;&gt;&lt;tbody&gt;&lt;tr style=&quot;height:15.0pt&quot; height=&quot;20&quot;&gt;&lt;br/&gt;  &lt;td style=&quot;height:15.0pt;width:379pt&quot; width=&quot;505&quot; class=&quot;xl65&quot; height=&quot;20&quot;&gt;stg.wh_operation_shk_writeoff_registration&lt;font class=&quot;font5&quot;&gt;&amp;nbsp;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="60" width="350" height="170" as="geometry" />
         </mxCell>
         <mxCell id="5e7JrkWrHbsxP8Q_pqoO-40" value="Алгоритм как приклеить склады" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="990" y="10" width="60" height="30" as="geometry" />
+          <mxGeometry x="1105" y="10" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
