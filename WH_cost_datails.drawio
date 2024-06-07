@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T15:32:14.956Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="4LQ_deMVdqQ2h3RE9Fdi" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T15:53:26.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="ENhYkYPwOIeGEgYsppKX" version="24.5.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1179" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -251,6 +251,12 @@
         </mxCell>
         <mxCell id="EEWN_i7aUo8QZYbQ1M-B-3" value="Списания бывают не только на эмплоев!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="1500" y="60" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-4" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-5" value="Обновление тарификатора и Юнит экономика это пересекающиеся но разные задачи!!!&lt;div&gt;При сравнении балансов по сотрудникам в коде Лехи сравниваются балансы только сотрудников у которых есть employee_id.&lt;/div&gt;&lt;div&gt;Списания по колторым не проставлен employee_id не происходит&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="385" y="-252" width="730" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
