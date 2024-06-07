@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T13:36:12.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="0M1lPBlv7vanOgubfCJf" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T13:36:37.819Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="W3KEW4Y-KRGQboj7S2JK" version="24.5.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1179" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -143,7 +143,7 @@
             <mxPoint x="1366.6799999999998" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nrw7vuONaXYaBOCRPxlg-10" value="Проклеить ШК_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Nrw7vuONaXYaBOCRPxlg-10" value="Проклеить Wh_id" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1058.75" y="720" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nrw7vuONaXYaBOCRPxlg-12" value="у записей на которые приходитяс 22% сумм списаний нет employee_id" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
