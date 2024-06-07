@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T14:54:39.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="G73kEqxMwNTNXQi584lJ" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T14:55:11.399Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="WBXx0ZGcEAzRK0Ug8gkU" version="24.5.2" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
     <mxGraphModel dx="1179" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Nrw7vuONaXYaBOCRPxlg-4" value="&lt;ul&gt;&lt;li&gt;Эксперименты на определение работал ли сотрудник в дату списания или ближайшую дату на определнном складе.&lt;/li&gt;&lt;li&gt;Возможно как-то использовать тары. Как пока конретно непонятно&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" parent="1" vertex="1">
-          <mxGeometry x="1520" y="710" width="330" height="150" as="geometry" />
+          <mxGeometry x="1520" y="710" width="360" height="150" as="geometry" />
         </mxCell>
         <mxCell id="Nrw7vuONaXYaBOCRPxlg-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.436;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="5e7JrkWrHbsxP8Q_pqoO-39" target="Nrw7vuONaXYaBOCRPxlg-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
