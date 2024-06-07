@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-28T12:10:20.482Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="dr3rVLZzHGc8STDfbphs" version="24.4.9" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-07T12:47:24.694Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="jLuuihIRDxg3dTW3SO6t" version="24.5.2" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="2281" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1852" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,114 +10,112 @@
         <mxCell id="AureokOPcRB-wlUimoDX-2" value="Складской тарификатор" style="swimlane;html=1;startSize=20;horizontal=0;" parent="AureokOPcRB-wlUimoDX-1" vertex="1">
           <mxGeometry x="20" width="1300" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--6" value="Выработка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--6" value="Выработка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="55" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--7" value="Списания/Оприходования" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--7" value="Списания/Оприходования" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="229" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--9" value="Административные штрафы" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--9" value="Административные штрафы" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="403" y="20" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--10" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--10" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="556" y="20" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--11" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--11" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="730" y="20" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--20" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--20" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="288.5" y="100" as="sourcePoint" />
             <mxPoint x="288.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--21" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--21" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="462.5" y="100" as="sourcePoint" />
             <mxPoint x="462.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--22" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--22" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="640" y="100" as="sourcePoint" />
             <mxPoint x="640" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--23" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--23" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-2" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="809.5" y="100" as="sourcePoint" />
             <mxPoint x="809.5" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--24" value="Выручка может далеко отстоять от первой операции по ШК. Возможно имеет смысл для всех ШК в выручке за 1 день посмотреть, в какой месяц они были созданы в stg.kafka_8gml4qx0ty__shk_create. Для большинства ШК из списка скорее всего все операции в тарификаторе будут укладываться в последние 2 месяца. А оставшимся маленьким списком ШК можно будет резать уже бОльшее кол-во партиций." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" vertex="1" parent="AureokOPcRB-wlUimoDX-2">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--24" value="Выручка может далеко отстоять от первой операции по ШК. Возможно имеет смысл для всех ШК в выручке за 1 день посмотреть, в какой месяц они были созданы в stg.kafka_8gml4qx0ty__shk_create. Для большинства ШК из списка скорее всего все операции в тарификаторе будут укладываться в последние 2 месяца. А оставшимся маленьким списком ШК можно будет резать уже бОльшее кол-во партиций." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;" parent="AureokOPcRB-wlUimoDX-2" vertex="1">
           <mxGeometry x="920" y="10" width="290" height="180" as="geometry" />
         </mxCell>
         <mxCell id="AureokOPcRB-wlUimoDX-3" value="Тарификатор фин депа" style="swimlane;html=1;startSize=20;horizontal=0;" parent="AureokOPcRB-wlUimoDX-1" vertex="1">
           <mxGeometry x="20" y="200" width="1300" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--8" value="Выработка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--8" value="Выработка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="55" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--16" value="Списания/Оприходования" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--16" value="Списания/Оприходования" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="229" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--17" value="Административные штрафы" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--17" value="Административные штрафы" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="403" y="50" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--18" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--18" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="556" y="50" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--19" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--19" value="Информация о логистических объектах(складах) в привязке в списаниям и оприходованиям" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="730" y="50" width="160" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--25" value="Выручка может далеко отстоять от первой операции по ШК. Возможно имеет смысл для всех ШК в выручке за 1 день посмотреть, в какой месяц они были созданы в stg.kafka_8gml4qx0ty__shk_create. Для большинства ШК из списка скорее всего все операции в тарификаторе будут укладываться в последние 2 месяца. А оставшимся маленьким списком ШК можно будет резать уже бОльшее кол-во партиций." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="AureokOPcRB-wlUimoDX-3">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--25" value="Выручка может далеко отстоять от первой операции по ШК. Возможно имеет смысл для всех ШК в выручке за 1 день посмотреть, в какой месяц они были созданы в stg.kafka_8gml4qx0ty__shk_create. Для большинства ШК из списка скорее всего все операции в тарификаторе будут укладываться в последние 2 месяца. А оставшимся маленьким списком ШК можно будет резать уже бОльшее кол-во партиций." style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="AureokOPcRB-wlUimoDX-3" vertex="1">
           <mxGeometry x="920" y="10" width="290" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--37" value="Баланс склада" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AureokOPcRB-wlUimoDX-1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--37" value="Баланс склада" style="swimlane;html=1;startSize=20;horizontal=0;" parent="AureokOPcRB-wlUimoDX-1" vertex="1">
           <mxGeometry x="20" y="430" width="1300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--50" value="Баланс по сотруднику версия склада" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="Vi-23OGS0FtceBu0X0W--37">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--50" value="Баланс по сотруднику версия склада" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="Vi-23OGS0FtceBu0X0W--37" vertex="1">
           <mxGeometry x="510" y="10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--38" value="Баланс Фин депа" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="AureokOPcRB-wlUimoDX-1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--38" value="Баланс Фин депа" style="swimlane;html=1;startSize=20;horizontal=0;" parent="AureokOPcRB-wlUimoDX-1" vertex="1">
           <mxGeometry x="20" y="560" width="1300" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--51" value="Баланс по сотруднику версия фин депа" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="Vi-23OGS0FtceBu0X0W--38">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--51" value="Баланс по сотруднику версия фин депа" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;isLoopSub=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="Vi-23OGS0FtceBu0X0W--38" vertex="1">
           <mxGeometry x="510" y="40" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--13" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--6" target="Vi-23OGS0FtceBu0X0W--8">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--13" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--6" target="Vi-23OGS0FtceBu0X0W--8" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="150" y="130" as="sourcePoint" />
             <mxPoint x="310" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--26" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.476;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--24" target="Vi-23OGS0FtceBu0X0W--25">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--26" value="" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;exitX=0.476;exitY=0.987;exitDx=0;exitDy=0;exitPerimeter=0;" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--24" target="Vi-23OGS0FtceBu0X0W--25" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="839.5" y="110" as="sourcePoint" />
             <mxPoint x="839.5" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--51" target="Vi-23OGS0FtceBu0X0W--50">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--52" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="AureokOPcRB-wlUimoDX-1" source="Vi-23OGS0FtceBu0X0W--51" target="Vi-23OGS0FtceBu0X0W--50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="410" y="500" as="sourcePoint" />
             <mxPoint x="460" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--1" value="Цель развития аналитики по ФОТ:&#x9; Детально объяснять причины изменения доли затрат на ФОТ от выручки
-&#xa;Для этого нужно уметь объяснять две составляющие отношения: &#x9;Выручку и затраты
-&#xa;Основная идея решения:&#x9;&quot;Обогатить тарификатор компонентами ,которые влияют на баланс сотрудника(ФОТ) .Основные влияющие факторы: &#xa;-Списания и оприходования ШК.&#xa;-Штрафы.&#xa;Также нужно научится связывать эти компоненты с блоками , где возникают соответствующие события. Сейчас этого нет.&#xa;С точки зрения выручки ,план в том чтобы распределять выручку пропорционально затратам в разрезе блока и операции.&quot;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--1" value="Цель развития аналитики по ФОТ:&#x9; Детально объяснять причины изменения доли затрат на ФОТ от выручки &#xa;Для этого нужно уметь объяснять две составляющие отношения: &#x9;Выручку и затраты &#xa;Основная идея решения:&#x9;&quot;Обогатить тарификатор компонентами ,которые влияют на баланс сотрудника(ФОТ) .Основные влияющие факторы: &#xa;-Списания и оприходования ШК.&#xa;-Штрафы.&#xa;Также нужно научится связывать эти компоненты с блоками , где возникают соответствующие события. Сейчас этого нет.&#xa;С точки зрения выручки ,план в том чтобы распределять выручку пропорционально затратам в разрезе блока и операции.&quot;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="10" width="560" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--72" value="Выручка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--72" value="Выручка" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;arcSize=10;dashed=1;strokeColor=#000000;fillColor=none;gradientColor=none;dashPattern=8 3 1 3;strokeWidth=2;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="210" width="310" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--74" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--74" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="690" y="260" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--75" value="Затраты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--75" value="Затраты" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="380" y="180" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Vi-23OGS0FtceBu0X0W--76" value="Выручка&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" vertex="1" parent="1">
+        <mxCell id="Vi-23OGS0FtceBu0X0W--76" value="Выручка&lt;div style=&quot;font-size: 35px;&quot;&gt;&lt;br style=&quot;font-size: 35px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=35;" parent="1" vertex="1">
           <mxGeometry x="1030" y="180" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
