@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-10T08:44:03.302Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="nYdyOP1tWsjI5HMtEMJ_" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-10T08:51:17.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="VYP9xazxp_P_p-Z-gSUk" version="24.5.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1002" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -36,6 +36,9 @@
         </mxCell>
         <mxCell id="zTqZhQre5ebIJnKyTU1B-11" value="wh_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="zTqZhQre5ebIJnKyTU1B-6">
           <mxGeometry y="146" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zTqZhQre5ebIJnKyTU1B-12" value="stg.kafka_8gml4qx0ty__shk_create" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
