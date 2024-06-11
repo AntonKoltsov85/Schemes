@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T09:10:32.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="CzDZsDvcf1HLgo17T4Yn" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T09:11:24.146Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="A7bPKbiIiLzkvkTvRRWq" version="24.5.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1002" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -110,13 +110,16 @@
           <mxGeometry y="86" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-47" value="таблица_фин_отдела_для списаний и оприходований" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=10;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-22">
-          <mxGeometry x="375" y="30" width="270" height="86" as="geometry" />
+          <mxGeometry x="375" y="30" width="270" height="116" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-48" value="shk_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-47">
           <mxGeometry y="26" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-49" value="amount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-47">
           <mxGeometry y="56" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="K0GeAyiJw5N1-BAhrHhz-68" value="wh_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-47">
+          <mxGeometry y="86" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-52" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" edge="1" parent="K0GeAyiJw5N1-BAhrHhz-22" target="K0GeAyiJw5N1-BAhrHhz-48">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -130,7 +133,7 @@
             <mxPoint x="390" y="-89" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-67" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-19">
+        <mxCell id="K0GeAyiJw5N1-BAhrHhz-67" value="Доп. выплаты" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-19">
           <mxGeometry x="20" y="580" width="700" height="190" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-54" value="Витрина" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
