@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T10:47:53.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="ObpwKkWWHagDwI-HEuAs" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-11T10:51:25.711Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="W4us9J4hxm_eH9Z8EjXm" version="24.5.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1179" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -183,18 +183,6 @@
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-72" value="dt" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-69">
           <mxGeometry y="86" width="220" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-75" value="Баланс" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="960" y="400" width="160" height="140" as="geometry" />
-        </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-77" value="dt" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-75">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-92" value="employee_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-75">
-          <mxGeometry y="56" width="160" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-83" value="Баланс на определенный день" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-75">
-          <mxGeometry y="86" width="160" height="54" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-84" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="K0GeAyiJw5N1-BAhrHhz-38" target="K0GeAyiJw5N1-BAhrHhz-63">
           <mxGeometry width="80" relative="1" as="geometry">
