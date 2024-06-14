@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-11T15:12:57.818Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="XkH04pdMy3fHMogRGsor" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-14T09:12:39.871Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="TvoZEWo_ZPBFR7bUhFUg" version="24.5.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1002" dy="575" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1002" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -37,7 +37,7 @@
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-38" value="amount" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-35" vertex="1">
           <mxGeometry y="86" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--1" value="volume" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-35">
+        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--1" value="volume" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-35" vertex="1">
           <mxGeometry y="116" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-39" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="K0GeAyiJw5N1-BAhrHhz-20" source="K0GeAyiJw5N1-BAhrHhz-24" target="K0GeAyiJw5N1-BAhrHhz-36" edge="1">
@@ -220,10 +220,10 @@
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-74" value="Фикс. Выплаты" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
           <mxGeometry y="222" width="160" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--2" value="volume" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="K0GeAyiJw5N1-BAhrHhz-54">
+        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--2" value="volume" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
           <mxGeometry y="256" width="160" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-128" value="Баланс" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
+        <mxCell id="K0GeAyiJw5N1-BAhrHhz-128" value="Баланс" style="text;strokeColor=#b85450;fillColor=#f8cecc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
           <mxGeometry y="290" width="160" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-73" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
@@ -357,11 +357,17 @@
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-127" value="Таблица сравнения" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" parent="1" vertex="1">
           <mxGeometry x="1020" y="720" width="310" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--3" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iJPHIWMTvCuHEZfJ-Dg--1" target="iJPHIWMTvCuHEZfJ-Dg--2">
+        <mxCell id="iJPHIWMTvCuHEZfJ-Dg--3" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iJPHIWMTvCuHEZfJ-Dg--1" target="iJPHIWMTvCuHEZfJ-Dg--2" edge="1">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="795" y="151" as="sourcePoint" />
             <mxPoint x="960" y="162" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="nfSCHGJhnzg20dBUlNF7-1" value="Баланс должен быть получается с&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="312" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nfSCHGJhnzg20dBUlNF7-2" value="Этот этап нужен для обогащения нашими данным(например ЛО в списаниях и оприходованиях ) поэтому просто со склада данные брать нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-110" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
