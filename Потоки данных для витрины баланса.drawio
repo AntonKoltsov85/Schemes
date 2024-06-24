@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:14:47.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="Wt7AQq9kD54pr22_C13w" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-24T09:15:57.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="X8Fz7FVsJfbRHCwKhMxo" version="24.6.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1242" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -196,38 +196,38 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-54" value="Витрина(&#xa;  sdb.warehouse_aggregated_analytics_per_employee)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="280" width="160" height="338" as="geometry" />
+        <mxCell id="K0GeAyiJw5N1-BAhrHhz-54" value="Витрина(&#xa;  sdb.warehouse_aggregated_analytics_per_employee)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="280" width="250" height="338" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-55" value="dt" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="26" width="160" height="30" as="geometry" />
+          <mxGeometry y="26" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-56" value="Employee_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="56" width="160" height="30" as="geometry" />
+          <mxGeometry y="56" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-57" value="shk_id" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="86" width="160" height="34" as="geometry" />
+          <mxGeometry y="86" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-63" value="Выработка" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="120" width="160" height="34" as="geometry" />
+          <mxGeometry y="120" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-64" value="Списания/оприходования" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="154" width="160" height="34" as="geometry" />
+          <mxGeometry y="154" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-86" value="Админ штрафы" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="188" width="160" height="34" as="geometry" />
+          <mxGeometry y="188" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-74" value="Фикс. Выплаты" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="222" width="160" height="34" as="geometry" />
+          <mxGeometry y="222" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="iJPHIWMTvCuHEZfJ-Dg--2" value="volume" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="256" width="160" height="34" as="geometry" />
+          <mxGeometry y="256" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-128" value="Баланс" style="text;strokeColor=#b85450;fillColor=#f8cecc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="290" width="160" height="34" as="geometry" />
+          <mxGeometry y="290" width="250" height="34" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-73" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
-          <mxGeometry y="324" width="160" height="14" as="geometry" />
+          <mxGeometry y="324" width="250" height="14" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-69" value="stg.kafka_geenhmvrrq__wh_employee_calc" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="200" y="610" width="220" height="116" as="geometry" />
@@ -362,9 +362,6 @@
             <mxPoint x="795" y="151" as="sourcePoint" />
             <mxPoint x="960" y="162" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="nfSCHGJhnzg20dBUlNF7-1" value="Баланс должен быть получается с&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="312" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nfSCHGJhnzg20dBUlNF7-2" value="Этот этап нужен для обогащения нашими данным(например ЛО в списаниях и оприходованиях ) поэтому просто со склада данные брать нельзя" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="520" y="-110" width="280" height="100" as="geometry" />
