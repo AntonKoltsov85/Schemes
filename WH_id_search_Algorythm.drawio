@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-07T15:53:26.206Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="ENhYkYPwOIeGEgYsppKX" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T12:54:28.092Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 YaBrowser/24.4.0.0 Safari/537.36" etag="wRfQhEOoYrcf94_wzyUE" version="24.6.5" type="github">
   <diagram name="Page-1" id="e56a1550-8fbb-45ad-956c-1786394a9013">
-    <mxGraphModel dx="1179" dy="1526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2052" dy="2242" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -246,17 +246,210 @@
         <mxCell id="Nrw7vuONaXYaBOCRPxlg-43" value="Есть записи списаний&amp;nbsp; в которых нет employee_id. На эти записи приходится 22% списаний." style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="2220" y="60" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-2" value="Юнит экономика" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-2" value="Юнит экономика" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="-60" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-3" value="Списания бывают не только на эмплоев!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-3" value="Списания бывают не только на эмплоев!" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="1500" y="60" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-4" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-4" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="640" y="30" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-5" value="Обновление тарификатора и Юнит экономика это пересекающиеся но разные задачи!!!&lt;div&gt;При сравнении балансов по сотрудникам в коде Лехи сравниваются балансы только сотрудников у которых есть employee_id.&lt;/div&gt;&lt;div&gt;Списания по колторым не проставлен employee_id не происходит&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="1">
+        <mxCell id="EEWN_i7aUo8QZYbQ1M-B-5" value="Обновление тарификатора и Юнит экономика это пересекающиеся но разные задачи!!!&lt;div&gt;При сравнении балансов по сотрудникам в коде Лехи сравниваются балансы только сотрудников у которых есть employee_id.&lt;/div&gt;&lt;div&gt;Списания по колторым не проставлен employee_id не происходит&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" parent="1" vertex="1">
           <mxGeometry x="385" y="-252" width="730" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.504;exitY=1.026;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-56" target="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1140" as="sourcePoint" />
+            <mxPoint x="350" y="1730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="151" y="1500" />
+              <mxPoint x="315" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-53" target="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="2010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="1970" />
+              <mxPoint x="315" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-53" value="Отфильтрованные списания" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1170" width="270" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-54" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-53">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-55" value="shk_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-53">
+          <mxGeometry y="60" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-56" value="dt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-53">
+          <mxGeometry y="90" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.452;exitY=1.023;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-63">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="1170" as="targetPoint" />
+            <mxPoint x="440" y="1150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-62" value="Сотрудники с выработкой в тарификаторе" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1070" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-63" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-62">
+          <mxGeometry y="30" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-66" target="6p6cdIdlf1prTd751r_X-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-66" target="6p6cdIdlf1prTd751r_X-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-66" target="6p6cdIdlf1prTd751r_X-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-66" value="Тарификатор в sdb" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="590" y="960" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-69" value="1) Выбираем списания оприходования за определенный промежуток времени. Среди них выбираем те, которые относятся к сотрудникам с выработкой" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1275" width="250" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-70" value="2) Для каждой пары сотрудник-ШК находим в тарификаторе последнюю запись о взаимодействии." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1380" width="250" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-71" value="4) Выделяем сотрудников администрации и блоки, на которых они были админами. Админов определяем как тех, у кого в день списания есть выработка с oper_type_id = 200000&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1630" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-87" target="6p6cdIdlf1prTd751r_X-152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-87" value="wh_id_by_tarificator" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1570" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-88" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-89" value="wh_id" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-90" value="shk_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-148" value="dt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-140" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.487;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="1590" as="sourcePoint" />
+            <mxPoint x="320" y="1570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="377" y="1500" />
+              <mxPoint x="320" y="1500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-91" value="Последние взаимодействия сотрудника и ШК" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1330" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-92" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-91">
+          <mxGeometry y="30" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-93" value="shk_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-91">
+          <mxGeometry y="60" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-94" value="wh_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-91">
+          <mxGeometry y="90" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-122" target="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="1970" />
+              <mxPoint x="315" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-122" value="администрация" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1600" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-123" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-122">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-124" value="wh_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-122">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-125" value="dt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-122">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-67" target="6p6cdIdlf1prTd751r_X-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-67" value="Списания и оприходования в stg" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-128" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-69" target="6p6cdIdlf1prTd751r_X-55">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="1410" as="sourcePoint" />
+            <mxPoint x="540" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-129" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-70" target="6p6cdIdlf1prTd751r_X-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="1640" as="sourcePoint" />
+            <mxPoint x="590" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-130" value="5) Для каждой ШК определяем, на каких wh_id были взаимодействия, за которые потом пришло списание с кладовщика" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1760" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-138" value="3) По паре shk_id employee_id привязываем wh_id" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="840" y="1490" width="250" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-143" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 4;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-138" target="6p6cdIdlf1prTd751r_X-87">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1810" as="sourcePoint" />
+            <mxPoint x="560" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=1 4;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-71" target="6p6cdIdlf1prTd751r_X-124">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="2080" as="sourcePoint" />
+            <mxPoint x="760" y="2010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6p6cdIdlf1prTd751r_X-152" target="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-152" value="wh_shk_mapping" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="1820" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-153" value="wh_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-152">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-154" value="shk_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-152">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-159" value="5) Привязываем wh_id для списаний на админов.&lt;br&gt;&lt;div&gt;Для пары employee_id и shk_id выбираем склад, за действие с этим ШК на котором было списание и на котором сотрудник был админом в день списания. Если складов несколько, то пока не проставляем wh_id&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1940" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-161" value="wh_id_by_admin" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="2000" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-162" value="employee_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-163" value="wh_id" style="text;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-164" value="shk_id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-165" value="dt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="6p6cdIdlf1prTd751r_X-161">
+          <mxGeometry y="120" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6p6cdIdlf1prTd751r_X-168" value="5) Привязываем wh_id к списаниям с помощью двух таблиц загружаем результат в витрину" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="2190" width="290" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
