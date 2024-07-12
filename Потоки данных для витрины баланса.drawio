@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-24T09:15:57.145Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="X8Fz7FVsJfbRHCwKhMxo" version="24.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-12T08:20:06.276Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="gp4xBTy1RkVNPKxXN0F3" version="24.6.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1242" dy="1675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -196,7 +196,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="K0GeAyiJw5N1-BAhrHhz-54" value="Витрина(&#xa;  sdb.warehouse_aggregated_analytics_per_employee)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=10;" parent="1" vertex="1">
+        <mxCell id="K0GeAyiJw5N1-BAhrHhz-54" value="Теперь это событийный тарификатор" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=10;" parent="1" vertex="1">
           <mxGeometry x="1010" y="280" width="250" height="338" as="geometry" />
         </mxCell>
         <mxCell id="K0GeAyiJw5N1-BAhrHhz-55" value="dt" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="K0GeAyiJw5N1-BAhrHhz-54" vertex="1">
