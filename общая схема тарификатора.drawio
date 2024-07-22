@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T13:43:44.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="rcEzZWCGfsysxoiJpBxD" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T13:45:14.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="dMHVQFX54JHlORZW8X4j" version="24.7.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
     <mxGraphModel dx="1035" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -40,7 +40,7 @@
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-2" value="каждые 10 минут тарификатор забирает все новые входящие поставки со статусом 10 и закрывает все поставки со статусом 6.&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="40" y="50" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-17" value="Поставки обогащаются информацией о блоках , где происходит приемка" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-17" value="Поставки обогащаются информацией о блоках(склад состоит часто из нескольких блоков) , где происходит приемка" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="40" y="130" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-2" target="Q_zp69lY7drZ3QzHUr-w-17">
@@ -49,7 +49,7 @@
             <mxPoint x="196" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-21" value="Из потока shk_create тарификатор забирает информацию о конкретных товарах(shk), которые приняты , чтобы посчитать сколько приянято товара и через это посчитаь скорость приема" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-21" value="Из потока shk_create тарификатор забирает информацию о конкретных товарах(shk), которые приняты , чтобы посчитать сколько принято товара и через это посчитать скорость приема" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="40" y="210" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-17" target="Q_zp69lY7drZ3QzHUr-w-21">
