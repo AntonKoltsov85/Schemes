@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T13:40:19.926Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="t1T4ZQU9USfnsTIh90RA" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T13:43:44.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="rcEzZWCGfsysxoiJpBxD" version="24.7.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="710" dy="329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,14 +19,8 @@
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-13" value="kafka поток данных с id блоков , к которым привязана поставка" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-8">
           <mxGeometry x="100" y="130" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-14" value="kafka поток данных shk create с информацией о принятых shk" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-8">
-          <mxGeometry x="100" y="210" width="220" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-8">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="320" as="sourcePoint" />
-            <mxPoint x="350" y="270" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-14" value="kafka поток данных shk_create с информацией о принятых shk" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-8">
+          <mxGeometry x="100" y="220" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-7" source="Q_zp69lY7drZ3QzHUr-w-12" target="Q_zp69lY7drZ3QzHUr-w-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -43,16 +37,31 @@
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-9" value="Тарификатор" style="swimlane;startSize=20;html=1;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-7">
           <mxGeometry x="400" y="20" width="400" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-2" value="каждые 10 минут тарификатор забирает все новые поставки со статусом 10 и закрывает все поставки со статусом 6.&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
-          <mxGeometry x="40" y="50" width="310" height="60" as="geometry" />
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-2" value="каждые 10 минут тарификатор забирает все новые входящие поставки со статусом 10 и закрывает все поставки со статусом 6.&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+          <mxGeometry x="40" y="50" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-17" value="Поставки обогащаются информацией о блоках , где происходит приемка" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
-          <mxGeometry x="40" y="130" width="320" height="50" as="geometry" />
+          <mxGeometry x="40" y="130" width="340" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-2">
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-2" target="Q_zp69lY7drZ3QzHUr-w-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="370" as="sourcePoint" />
             <mxPoint x="196" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-21" value="Из потока shk_create тарификатор забирает информацию о конкретных товарах(shk), которые приняты , чтобы посчитать сколько приянято товара и через это посчитаь скорость приема" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+          <mxGeometry x="40" y="210" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-17" target="Q_zp69lY7drZ3QzHUr-w-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="120" as="sourcePoint" />
+            <mxPoint x="220" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-7" source="Q_zp69lY7drZ3QzHUr-w-14" target="Q_zp69lY7drZ3QzHUr-w-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
