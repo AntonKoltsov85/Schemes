@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T13:48:13.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="5G9ud711KuDmBz4k7GVr" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T14:02:24.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="f98DeCxddVbvtQGzNZB4" version="24.7.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="2070" dy="958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1183" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -44,31 +44,57 @@
           <mxGeometry x="400" y="20" width="740" height="850" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-2" value="каждые 10 минут тарификатор забирает все новые входящие поставки со статусом 10 и закрывает все поставки со статусом 6.&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
-          <mxGeometry x="40" y="50" width="340" height="60" as="geometry" />
+          <mxGeometry x="216" y="50" width="340" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-17" value="Поставки обогащаются информацией о блоках(склад состоит часто из нескольких блоков) , где происходит приемка" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
-          <mxGeometry x="40" y="130" width="340" height="50" as="geometry" />
+          <mxGeometry x="216" y="130" width="340" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-2" target="Q_zp69lY7drZ3QzHUr-w-17">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="370" as="sourcePoint" />
-            <mxPoint x="196" y="130" as="targetPoint" />
+            <mxPoint x="406" y="370" as="sourcePoint" />
+            <mxPoint x="372" y="130" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-21" value="Из потока shk_create тарификатор забирает информацию о конкретных товарах(shk), которые приняты , чтобы посчитать сколько принято товара и через это посчитать:&lt;br&gt;- скорость приема &lt;br&gt;-сколько штук осталось принять&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
-          <mxGeometry x="40" y="210" width="340" height="70" as="geometry" />
+          <mxGeometry x="216" y="210" width="340" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-17" target="Q_zp69lY7drZ3QzHUr-w-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="220" y="120" as="sourcePoint" />
-            <mxPoint x="220" y="140" as="targetPoint" />
+            <mxPoint x="396" y="120" as="sourcePoint" />
+            <mxPoint x="396" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-23" value="Чтобы закончить приемку нужно менее 8 часов?" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="220" y="300" width="340" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Q_zp69lY7drZ3QzHUr-w-24" value="Отставания нет. Выставляется минимальный тариф по блоку." style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-24" value="Отставания нет. Выставляется минимальный тариф по блоку.(Есть таблица ,где установлены минимальный и максимальный тариф по блоку)" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="30" y="410" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-25" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.486;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-21" target="Q_zp69lY7drZ3QzHUr-w-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="190" as="sourcePoint" />
+            <mxPoint x="396" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.383;entryY=-0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Q_zp69lY7drZ3QzHUr-w-9" source="Q_zp69lY7drZ3QzHUr-w-23" target="Q_zp69lY7drZ3QzHUr-w-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="396" y="290" as="sourcePoint" />
+            <mxPoint x="395" y="311" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-27" value="Нет" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Q_zp69lY7drZ3QzHUr-w-26">
+          <mxGeometry x="-0.367" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-28" value="Чтобы закончить приемку нужно более 36 часов?" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+          <mxGeometry x="410" y="410" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q_zp69lY7drZ3QzHUr-w-29" value="Выставляется в границах между минимальной&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
+          <mxGeometry x="220" y="520" width="290" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
