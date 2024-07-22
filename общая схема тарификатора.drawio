@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-22T14:07:02.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="VrYLWvj_Qfkn32rMRUD6" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-22T14:07:14.045Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" etag="VUu7U3v4teIVfBQP_mTo" version="24.7.1" type="github">
   <diagram name="Page-1" id="c7488fd3-1785-93aa-aadb-54a6760d102a">
-    <mxGraphModel dx="1183" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1380" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="850" y="50" width="280" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-7" value="Приемка с использованием автматического тарификатора" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="170" width="1270" height="870" as="geometry" />
+          <mxGeometry x="120" y="170" width="1270" height="650" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-8" value="Складские сервисы" style="swimlane;startSize=20;html=1;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-7">
-          <mxGeometry y="20" width="400" height="850" as="geometry" />
+          <mxGeometry y="20" width="400" height="630" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-12" value="kafka поток данных со статусами поставок(статус 6 -товар принят,&lt;div&gt;статус 10 поставка на воротах(не принята)&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-8">
           <mxGeometry x="100" y="50" width="220" height="60" as="geometry" />
@@ -41,7 +41,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-9" value="Тарификатор" style="swimlane;startSize=20;html=1;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-7">
-          <mxGeometry x="400" y="20" width="870" height="850" as="geometry" />
+          <mxGeometry x="400" y="20" width="870" height="630" as="geometry" />
         </mxCell>
         <mxCell id="Q_zp69lY7drZ3QzHUr-w-2" value="каждые 10 минут тарификатор забирает все новые входящие поставки со статусом 10 и закрывает все поставки со статусом 6.&amp;nbsp;&amp;nbsp;" style="html=1;dashed=0;whiteSpace=wrap;" vertex="1" parent="Q_zp69lY7drZ3QzHUr-w-9">
           <mxGeometry x="216" y="50" width="340" height="60" as="geometry" />
