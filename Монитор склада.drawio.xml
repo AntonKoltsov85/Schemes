@@ -5,7 +5,7 @@
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
         <mxCell id="AsuqOmMkcITjoCj8BU9A-4" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;gradientColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="90" width="1300" height="760" as="geometry" />
+          <mxGeometry x="30" y="90" width="1300" height="640" as="geometry" />
         </mxCell>
         <mxCell id="AsuqOmMkcITjoCj8BU9A-5" value="Монитор руководителя склада" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;whiteSpace=wrap;" parent="AsuqOmMkcITjoCj8BU9A-4" vertex="1">
           <mxGeometry x="130" y="60" width="280" height="26" as="geometry" />
@@ -197,16 +197,16 @@
           <mxGeometry x="50" y="398" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AsuqOmMkcITjoCj8BU9A-38" value="Руководитель высокого уровня" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;comic=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="950" width="30" height="80" as="geometry" />
+          <mxGeometry x="190" y="770" width="30" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AsuqOmMkcITjoCj8BU9A-39" value="Посмотреть в целом хватает ли ресурсов на складах" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="950" width="140" height="70" as="geometry" />
+          <mxGeometry x="290" y="770" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="AsuqOmMkcITjoCj8BU9A-42" value="Операционный руководитель&amp;nbsp;&lt;div&gt;непосредственно на складе&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;comic=0;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1110" width="30" height="80" as="geometry" />
+          <mxGeometry x="190" y="930" width="30" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AsuqOmMkcITjoCj8BU9A-43" value="Посмотреть хватает ли ресурсов в его зоне ответсвенности" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="300" y="1100" width="140" height="90" as="geometry" />
+          <mxGeometry x="310" y="920" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
