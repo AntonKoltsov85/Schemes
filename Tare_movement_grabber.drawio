@@ -4,17 +4,32 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-1" value="Tare_movement_grabber" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="90" y="60" width="480" height="380" as="geometry" />
+        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-1" value="Tare_movement_grabber" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="90" y="60" width="320" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-2" value="Lane 1" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-1">
-          <mxGeometry y="20" width="480" height="120" as="geometry" />
+        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-2" value="root" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Nkf0lfcZuZS1kdWsEw5L-1" vertex="1">
+          <mxGeometry y="20" width="320" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-3" value="Lane 2" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-1">
-          <mxGeometry y="140" width="480" height="120" as="geometry" />
+        <mxCell id="Tg6vZFPkg60tkRhzb7h7-2" value="main.go" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-2">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-4" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-1">
-          <mxGeometry y="260" width="480" height="120" as="geometry" />
+        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-3" value="Bootstrap" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Nkf0lfcZuZS1kdWsEw5L-1" vertex="1">
+          <mxGeometry y="140" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg6vZFPkg60tkRhzb7h7-3" value="func StartServer()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-3">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nkf0lfcZuZS1kdWsEw5L-4" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" parent="Nkf0lfcZuZS1kdWsEw5L-1" vertex="1">
+          <mxGeometry y="260" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Tg6vZFPkg60tkRhzb7h7-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nkf0lfcZuZS1kdWsEw5L-1" source="Tg6vZFPkg60tkRhzb7h7-2" target="Tg6vZFPkg60tkRhzb7h7-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="100" as="sourcePoint" />
+            <mxPoint x="210" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Tg6vZFPkg60tkRhzb7h7-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="118" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
