@@ -25,6 +25,12 @@
         <mxCell id="tiql4oQqMmJiYOh7c0et-1" value="Grabber.go&lt;div&gt;New() //создаем граббер&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-4">
           <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="tiql4oQqMmJiYOh7c0et-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nkf0lfcZuZS1kdWsEw5L-4" target="tiql4oQqMmJiYOh7c0et-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="129.5" y="80" as="sourcePoint" />
+            <mxPoint x="129.5" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="tiql4oQqMmJiYOh7c0et-4" value="Internal" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="Nkf0lfcZuZS1kdWsEw5L-1">
           <mxGeometry y="380" width="320" height="120" as="geometry" />
         </mxCell>
