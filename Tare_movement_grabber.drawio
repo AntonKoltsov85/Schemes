@@ -84,14 +84,10 @@
             <mxPoint x="140" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tiql4oQqMmJiYOh7c0et-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.392;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="Nkf0lfcZuZS1kdWsEw5L-1" source="tiql4oQqMmJiYOh7c0et-18" target="tiql4oQqMmJiYOh7c0et-16">
+        <mxCell id="tiql4oQqMmJiYOh7c0et-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Nkf0lfcZuZS1kdWsEw5L-1" source="tiql4oQqMmJiYOh7c0et-18" target="tiql4oQqMmJiYOh7c0et-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="830" y="300" as="sourcePoint" />
-            <mxPoint x="800" y="310" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="595" y="380" />
-              <mxPoint x="595" y="390" />
-            </Array>
+            <mxPoint x="850" y="790" as="sourcePoint" />
+            <mxPoint x="900" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
